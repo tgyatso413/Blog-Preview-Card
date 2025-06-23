@@ -1,18 +1,76 @@
 body {
-    background-color: yellow;
+    background-color: hsl(47, 88%, 63%);
+    
 }
 
 .card {
+    width: 350px;
+    text-align: left;
+    border-radius: 10px;
+    border-style: solid;
+    border-width: thin;
+    border-color: black;
+    background-color: white;
+    font-family: "Figtree-Medium";
+    padding: 20px;
+    box-shadow: 10px 10px;
+}
+
+.card-img-top {
     text-align: center;
     border-radius: 10px;
-    background-color: white;
-    font-family: 'Figtree';
+}
+
+.box {
+
+    padding-top: 10px;
+    background-color: hsl(47, 88%, 63%);
+    text-align: center;
+    width: 100px;
+    height: 30px;
+    border-radius: 10px;
+    font-family: "Figtree-ExtraBold";
+}
+
+.date {
+    font-size: 14px;
+    color: hsl(0, 0%, 7%);
+    margin-top: 10px;
 }
 
 .card-title {
+    font-family: "Figtree-ExtraBold";
+    font-size: 24px;
+    color: hsl(0, 0%, 7%);
+    margin-top: 10px;
+}
 
+.card-title:hover{
+    color: hsl(47, 88%, 63%);
 }
 
 .card-text {
+    font-size: 16px;
+    color: gray;
+}
 
+.name {
+    font-family: "Figtree-ExtraBold";
+}
+
+.avatar {
+    vertical-align: middle;
+    width: 30px;
+    height: 30px;
+}
+
+@font-face {
+    font-family: "Figtree-ExtraBold";
+    src: url("assets/fonts/static/Figtree-ExtraBold.ttf");
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: "Figtree-Medium";
+    src: url(assets/fonts/static/Figtree-Medium.ttf)
 }
